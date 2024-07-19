@@ -30,6 +30,7 @@ boxes.forEach((box) => {
     if (turnO) {
       //playerO
       box.innerText = "O";
+      box.style.color="#983e3b";
       turnO = false;
     } else {
       //playerX
